@@ -100,15 +100,12 @@ class BookingController extends Controller
         return redirect()->route('bookings.index')
             ->with('success', 'Booking deleted successfully.');
     }
-
+    
     public function exportPdf()
     {
-    $bookings = Booking::with(['room', 'user'])
-    ->latest()
-    ->get();
-
-    $pdf = Pdf::loadView('bookings.pdf', compact('bookings'));
-
-    return $pdf->download('booking-report.pdf');
+            $bookings = Booking::with(['room', 'user'])->latest()->get();
+            $pdf = Pdf::loadView('bookings.pdf', compact('bookings'));
+            
+            return $pdf->download('booking-report.pdf');
     }
 }

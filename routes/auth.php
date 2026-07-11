@@ -57,10 +57,4 @@ Route::middleware('auth')->group(function () {
     Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
         ->name('logout');
 });
-Route::middleware(['auth'])->group(function () {
-    Route::resource('rooms', RoomController::class);
-    Route::resource('bookings', BookingController::class);
 
-    Route::get('/bookings-export-pdf', [BookingController::class, 'exportPdf'])
-        ->name('bookings.exportPdf');
-});

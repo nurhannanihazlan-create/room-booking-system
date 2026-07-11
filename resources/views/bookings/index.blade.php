@@ -16,8 +16,10 @@
             <a href="{{ route('bookings.exportPdf') }}"
             class="bg-red-600 text-white px-5 py-2 rounded-xl font-semibold hover:bg-red-700">
             Export PDF
+            
+            </a>
         </div>
-    </a>
+    
         <a href="{{ route('bookings.create') }}"
            class="bg-blue-600 text-white px-5 py-2 rounded-xl font-semibold hover:bg-blue-700">
             + New Booking

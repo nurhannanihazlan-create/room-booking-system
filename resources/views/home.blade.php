@@ -21,7 +21,7 @@
 
 <div class="grid md:grid-cols-2">
 
-<div class="bg-blue-600 text-white p-12">
+<div class="bg-emerald-600 text-white p-12">
 
 <h1 class="text-5xl font-bold mb-6">
 
@@ -29,7 +29,7 @@
 
 </h1>
 
-<p class="text-blue-100 text-lg">
+<p class="text-emerald-100 text-lg">
 
 Book meeting rooms easily, manage reservations,
 and organize your workspace efficiently.
@@ -63,14 +63,14 @@ Please login or create an account.
 </p>
 
 <a href="{{ route('login') }}"
-class="bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-xl font-semibold">
+class="bg-emerald-600 hover:bg-emerald-700 text-white text-center py-3 rounded-xl font-semibold">
 
 Login
 
 </a>
 
 <a href="{{ route('register') }}"
-class="mt-4 border border-blue-600 text-blue-600 hover:bg-blue-50 text-center py-3 rounded-xl font-semibold">
+class="mt-4 border border-emerald-600 text-emerald-600 hover:bg-emerald-50 text-center py-3 rounded-xl font-semibold">
 
 Register
 

@@ -47,7 +47,7 @@
 
                 <div class="space-y-4">
                     <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold">1</div>
+                        <div class="w-10 h-10 rounded-full bg-emerald-100 text-blue-600 flex items-center justify-center font-bold">1</div>
                         <div>
                             <p class="font-semibold text-gray-700">Manage Rooms</p>
                             <p class="text-sm text-gray-500">Admin adds and updates available rooms.</p>
@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold">2</div>
+                        <div class="w-10 h-10 rounded-full bg-yellow-100 text-green-600 flex items-center justify-center font-bold">2</div>
                         <div>
                             <p class="font-semibold text-gray-700">Create Booking</p>
                             <p class="text-sm text-gray-500">User selects a room, date, time, and purpose.</p>
@@ -72,7 +72,7 @@
                 </div>
             </div>
 
-            <div class="bg-blue-600 rounded-2xl shadow-sm p-6 text-white">
+            <div class="bg-emerald-600 rounded-2xl shadow-sm p-6 text-white">
                 <h3 class="text-lg font-semibold mb-3">
                     Quick Actions
                 </h3>
@@ -88,12 +88,12 @@
                     </a>
 
                     <a href="{{ route('bookings.index') }}"
-                       class="block bg-blue-500 text-white text-center rounded-xl py-3 font-semibold hover:bg-blue-400">
+                       class="block bg-emerald-500 text-white text-center rounded-xl py-3 font-semibold hover:bg-blue-400">
                         View Bookings
                     </a>
 
                     <a href="{{ route('bookings.create') }}"
-                       class="block bg-green-500 text-white text-center rounded-xl py-3 font-semibold hover:bg-green-400">
+                       class="block bg-yellow-500 text-white text-center rounded-xl py-3 font-semibold hover:bg-yellow-400">
                         New Booking
                     </a>
                 </div>
