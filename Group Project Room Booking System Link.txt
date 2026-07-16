@@ -1,3 +1,0 @@
-Link
-Online: https://room-booking-system-production-ztuk2h.laravel.cloud/
-GitHub repository:https://github.com/nurhannanihazlan-create/room-booking-system
